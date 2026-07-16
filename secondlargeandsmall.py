@@ -1,4 +1,4 @@
-def Secondlargeandsmall(arr):
+def sort(arr):
     if len(arr)==0:
         return None
     else:
@@ -11,5 +11,5 @@ def Secondlargeandsmall(arr):
     return arr
 
 arr=[1,9,2,4,6,10,8,7]
-Secondlargeandsmall(arr)
+sort(arr)
 print(arr[-2],arr[1])
